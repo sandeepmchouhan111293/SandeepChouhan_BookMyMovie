@@ -1,0 +1,30 @@
+#upcoming-movies-heading-container{
+   background-color: #ff999999;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#upcoming-movies-heading {
+   font-size: 1rem;
+   padding: 8px;
+}
+
+#released-movies-and-filter-container {
+   display: flex;
+}
+
+.grid-76 {
+   width: calc(76% - 16px);
+}
+
+.grid-24 {
+   width: calc(24% - 16px);
+}
+
+.margin-16 {
+   margin: 16px;
+}
+
+
+

@@ -1,0 +1,37 @@
+.header {
+    background-color: #222;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-logo {
+    height: 36px;
+    background-color: #ff7f7f;
+    height: 35px;
+}
+
+.rotate-anim {
+    animation: rotate 8s infinite ;
+}
+
+.header-btn {
+    background-color: #fff;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.tab-list-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
